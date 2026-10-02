@@ -1,0 +1,6 @@
+/ {
+    chosen {
+        zephyr,sram = &dtcm;
+        zephyr,code-partition = &boot_partition;
+    };
+};
